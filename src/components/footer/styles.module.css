@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D3D8DC;
+    padding: 30px;
+    background-image: url("waveFooter.svg");
+    height: 200px;
+    /* align-items: center; */
+}
+
+.wrapperLinks{
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+}
+
+.wrapperContato{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: rgb(77, 75, 75);
+    cursor: pointer;
+}
+.wrapperContato:hover{
+    color: #F8C300;
+}
+
+.WrapperMainContato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.divider{
+    border-right: 2px solid #fff;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+    font-weight: 600;
+}
+.link:hover{
+    color: #F8C300;
+}
+
+.endereco{
+    font-weight: 500;
+    color: rgb(77, 75, 75);
+    
+}
+
+.wrapperEndereco{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

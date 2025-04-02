@@ -1,0 +1,34 @@
+.container{
+    padding: 30px 35px;
+    background-image: url("background-queijo.png");
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapperParagraph{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.title{
+    color: #037abc;
+}
+
+.paragraph{
+    color: #848d95;
+}
+
+.button{
+    padding: 10px 25px;
+    border-radius: 3px;
+    box-shadow: unset;
+    border: 1px solid #037ABC;
+    color: #037ABC;
+
+}

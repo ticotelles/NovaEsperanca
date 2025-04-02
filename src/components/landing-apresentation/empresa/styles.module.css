@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* padding: 35px; */
+    justify-content: space-evenly;
+    background-color: #E8F8E8;
+    padding: 50px 0px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.wrapperImg {
+    background-image: url("wave-empresa.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 558px;
+    width: 962px;
+    max-width: 800px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(107, 107, 107);
+}
+
+.paragraph {
+    max-width: 800px;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+}
+.img {
+    width: 70%;
+    border-radius: 20px;
+    /* border-radius: 20px 50px 10px 100px; */
+}
+
+.wrapperText {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: center;
+    text-align: center;
+
+    padding: 20px 20px;
+    /* background-color: #E8F8E8; */
+}
+
+.button{
+    padding: 10px 25px;
+    border-radius: 3px;
+    box-shadow: unset;
+    border: 1px solid #037ABC;
+    color: #037ABC;
+}
+
+
+
+
+
+
+
+
+.shapedividerscom3944{
+    overflow:hidden;
+    position:relative;
+    }
+    .shapedividerscom3944::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 306px;
+    background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.278 3.62" preserveAspectRatio="none"><path d="M35.278.092S8.238.267 0 3.62V.092z" opacity=".2" fill="%23a3d4a3"/><path d="M35.278.092S8.238.246 0 3.194V.092z" opacity=".2" fill="%23a3d4a3"/><path d="M35.278.092S8.238.223 0 2.738V.092zM35.278.092H0V0h35.278z" fill="%23a3d4a3"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shapedividerscom3944::before{
+    background-size: 100% calc(2vw + 306px);
+    }
+    }
+     
+ 
+     

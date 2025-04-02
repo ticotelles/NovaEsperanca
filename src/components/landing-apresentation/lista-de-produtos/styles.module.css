@@ -1,0 +1,84 @@
+.container {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /* padding-left: 20px; */
+    gap: 30px;
+
+}
+
+
+.Carousel {
+    border: 6px solid #00AA52;
+    margin-right: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.wrapperTitle {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 800px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px 50px 20px;
+    gap: 30px;
+}
+
+.wrapper {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.title {
+    font-size: 35px;
+    color: rgb(107, 107, 107);
+    font-weight: 600;
+}
+
+.paragraph {
+    max-width: 800px;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+}
+
+.teste {
+    width: 80%;
+    /* background-color: #00AA52; */
+}
+
+.button{
+    padding: 10px 25px;
+    border-radius: 3px;
+    box-shadow: unset;
+    border: 1px solid #037ABC;
+    color: #037ABC;
+    font-weight: 600;
+
+}
+
+.wrapperButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
