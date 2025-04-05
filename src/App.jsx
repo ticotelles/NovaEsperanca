@@ -8,22 +8,23 @@ import ListaDeProdutos from './components/landing-apresentation/lista-de-produto
 import Receita from './components/landing-apresentation/receita'
 import Empresa from './components/landing-apresentation/empresa'
 import Footer from './components/footer'
-
+import Produtos from './components/page/produtos'
 
 function App() {
 
 
   return (
     <>
-      <Headerr />
-      <ImgMain />
+      {/* <Headerr /> */}
+      <Produtos />
+      {/* <ImgMain />
       <NumerosEmpresa />
       <Empresa />
       <ListaDeProdutos />
       <Receita />
-      {/* <Carousel /> */}
-      {/* <Separator /> */}
-      <Footer />
+      <Carousel />
+      <Separator />
+      <Footer /> */}
     </>
   )
 }
