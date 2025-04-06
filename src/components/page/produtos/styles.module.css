@@ -1,5 +1,5 @@
 .container {
-
+    /* background-image: url("background-queijo.png"); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,6 +10,8 @@
 }
 
 .wrapperText {
+    background-image: url("background-queijo.png");
+    background-size: 1900px 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,17 +30,17 @@
     justify-content: center;
 }
 
-.paragraph{
+.paragraph {
     max-width: 800px;
     font-size: 16px;
 }
 
-.title{
+.title {
     font-size: 70px;
     font-weight: 700;
 }
 
-.wrapperContainer{
+.wrapperContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -47,7 +49,7 @@
     text-align: center;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -55,13 +57,14 @@
     width: 100%;
     text-align: start;
     gap: 30px;
+    margin-top: 35px;
 }
 
-.wrapperTitleCard{
-   border-bottom: 1px solid #FDD19B;
+.wrapperTitleCard {
+    border-bottom: 1px solid #FDD19B;
 }
 
-.cardListItens{
+.cardListItens {
     display: flex;
     align-items: center;
     text-align: center;
@@ -69,17 +72,28 @@
     width: 100%;
     /* background-color: cadetblue; */
     max-width: 1200px;
-     background-color: #FAF7F4;
-     border-radius: 12px;
-     padding: 30px;
+    background-color: #FAF7F4;
+    border-radius: 12px;
+    gap: 20px;
+    padding: 25px;
+    flex-wrap: wrap;
 }
 
-.cardItem{
+.cardItem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 300px;
+    height: 300px;
+    gap: 15px;
+    /* max-height: 300px; */
+   margin-right: 35px;
     /* background-color: #FDD19B; */
+}
+
+.titleCard{
+    max-width: 200px;
+    line-height: 20px;
+    /* margin-bottom: 15px; */
 }

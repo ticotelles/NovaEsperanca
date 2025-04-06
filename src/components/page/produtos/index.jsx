@@ -3,30 +3,115 @@ import styles from './styles.module.css'
 
 const item = [
     {
-        img: "queijoMinas.png",
-        title: "Cheddar Fatiado - peso padrão",
-        peso: "450 g"
+        produtoTipo: "Queijo",
+        listaProduto: [
+            {
+                img: "produtos/queijoMinas.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/montanhes-picolo.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/montanhes.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone-defumado.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone-defumado.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+
+        ]
     },
     {
-        img: "montanhes-picolo.png",
-        title: "Cheddar Fatiado - peso padrão",
-        peso: "450 g"
+        produtoTipo: "Iogurte",
+        listaProduto: [
+            {
+                img: "produtos/queijoMinas.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/montanhes-picolo.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/montanhes.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            
+        ]
     },
     {
-        img: "montanhes.png",
-        title: "Cheddar Fatiado - peso padrão",
-        peso: "450 g"
+        produtoTipo: "Requeijão",
+        listaProduto: [
+            {
+                img: "produtos/queijoMinas.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/montanhes-picolo.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/montanhes.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+            {
+                img: "produtos/provolone-defumado.png",
+                title: "Cheddar Fatiado peso padrão",
+                peso: "450 g"
+            },
+           
+
+        ]
     },
+]
+
+const productType = [
     {
-        img: "provolone.png",
-        title: "Cheddar Fatiado - peso padrão",
-        peso: "450 g"
-    },
-    {
-        img: "provolone-defumado.png",
-        title: "Cheddar Fatiado - peso padrão",
-        peso: "450 g"
-    },
+
+    }
 ]
 
 
@@ -48,30 +133,33 @@ const Produtos = () => {
             </div>
 
             <div className={styles.wrapperContainer}>
-                <h3>Conheça a linha de produtos Buritis</h3>
+                <h3>Conheça a linha de produtos do Laticínio Nova Esperança</h3>
 
 
+                {item.map((itens, index) => (
 
+                    <div key={index} className={styles.card}>
+                        <div className={styles.wrapperTitleCard}>
+                            <h3>{itens.produtoTipo}</h3>
+                        </div>
 
-                <div className={styles.card}>
-                    <div className={styles.wrapperTitleCard}>
-                        <h3>Cheddar</h3>
+                        <div className={styles.cardListItens}>
+
+                            {itens.listaProduto.map((produtos, idx) => (
+
+                                <div key={idx} className={styles.cardItem}>
+                                    <img width={200} height={200} src={produtos.img} alt="" />
+
+                                    <h3 className={styles.titleCard}>{produtos.title}</h3>
+                                    <p>{produtos.peso}</p>
+                                </div>
+                            ))} 
+
+                        </div>
+
                     </div>
+                ))}
 
-                    <div className={styles.cardListItens}>
-
-                        {item.map((itens, index) => (
-
-                            <div key={index} className={styles.cardItem}>
-                                <img width={200} src={itens.img} alt="" />
-
-                                <h3>{itens.title}</h3>
-                                <p>{itens.peso}</p>
-                            </div>
-                        ))}
-                    </div>
-
-                </div>
 
             </div>
         </div>
