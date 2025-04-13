@@ -1,6 +1,8 @@
 .container{
     padding: 30px 35px;
     background-image: url("background-queijo.png");
+    background-size: 1900px 900px;
+    background-repeat: no-repeat;
     align-items: center;
     display: flex;
     flex-direction: column;
