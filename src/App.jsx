@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      {/* <Headerr /> */}
+      <Headerr />
       {/* <Produtos /> */}
       <QuemSomos />
       {/* <ImgMain />
@@ -27,7 +27,7 @@ function App() {
       <Receita /> */}
       {/* <Carousel /> */}
       {/* <Separator /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

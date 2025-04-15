@@ -93,24 +93,20 @@ const QuemSomos = () => {
 
             <div className={styles.wrapperContainerValores}>
 
-
                 <div className={styles.wrapperTextValores}>
 
-                    <h1>Qualidade, respeito e dedicação</h1>
+                    <h1 className={styles.titleMainValores}>Qualidade, respeito e dedicação</h1>
 
-                    <div className={styles.cardValores}>
+                    {valores.map((card, indice) => (
+                        <div key={indice} className={styles.cardValores}>
 
-                        <h3 className={styles.titleValores}>Missão</h3>
-                        <p className={styles.paragraphValores}>
-                            Produzir produtos de qualidade, buscando processos eficientes para proporcionar preço justo. Respeitando nossos colaboradores,
-                            clientes, fornecedores, sociedade e meio ambiente. Procurando inovar para atender necessidades de nossos clientes.
-                        </p>
-                    </div>
-
+                            <h3 className={styles.titleValores}>{card.title}</h3>
+                            <p className={styles.paragraphValores}>{card.description}</p>
+                        </div>
+                    ))}
                 </div>
 
                 <img src="quemSomosImg.png" alt="" />
-
             </div>
 
 

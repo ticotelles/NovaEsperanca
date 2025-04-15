@@ -1,23 +1,16 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
+
     width: 100%;
-    padding: 40px 0px;
-    /* gap: 75px; */
-    /* background-color: #E5DBCD; */
-    /* background-image: url("bg1.png");
-    background-repeat: no-repeat;
-    background-size: cover; */
+    padding-top: 40px;
  
+
 }
 
-.wrapperminiImg{
-    /* background-color: aqua; */
-
-
+.wrapperminiImg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,10 +18,10 @@
     height: auto;
     flex-wrap: wrap;
     max-width: 1300px;
-    
+
 }
 
-.cardMiniImg{
+.cardMiniImg {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,30 +34,30 @@
     /* align-items: center; */
 }
 
-.paragraphMiniImg{
+.paragraphMiniImg {
     font-size: 20px;
     font-weight: 600;
 }
 
-.paragraph{
+.paragraph {
     max-width: 700px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     /* padding: 20px 40px; */
     gap: 30px;
     justify-content: space-evenly;
-  
-   /* max-width: 900px; */
-   width: 100%;
+
+    /* max-width: 900px; */
+    width: 100%;
     /* background-color: aqua; */
 }
 
-.waveEmpresa{
+.waveEmpresa {
     background-image: url("wave-empresa.png");
     background-repeat: no-repeat;
     background-size: 790px;
@@ -72,49 +65,59 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-   width: 100%;
-   height: 500px;
+    width: 100%;
+    height: 500px;
 }
 
-.wrapperText{
+.wrapperText {
     max-width: 500px;
     /* padding-right: 20px; */
 }
 
-.title{
+.title {
     margin-bottom: 20px;
 }
 
-.wrapperImgDivider{
+.wrapperImgDivider {
     position: relative;
     width: 100%;
-    height: 500px;
-    /* margin: 100px 0px; */
+    height: 200px;
+    margin-top: 170px;
 }
 
-.imgDivider{
+.imgDivider {
     position: absolute;
     left: 10px;
-    bottom: 256px;
+    top: -68px;
     width: 1200px;
     height: 320px;
 
 }
 
-.imgCarinho{
+.imgCarinho {
     position: absolute;
     right: 150px;
-    bottom: 321px;
+    top: 18px;
 }
 
-.wrapperContainerValores{
+.wrapperContainerValores {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    
+    background-color: #F0E9E1;
+
 }
 
-.wrapperTextValores{
+.titleMainValores {
+    font-family: "modesto-condensed";
+    font-size: 80px;
+    text-align: left;
+    max-width: 750px;
+    color: #fca437;
+}
+
+.wrapperTextValores {
+    margin-top: 140px;
     gap: 80px;
     display: flex;
     flex-direction: column;
@@ -122,7 +125,7 @@
     width: 100%;
 }
 
-.cardValores{
+.cardValores {
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -130,4 +133,17 @@
     border-bottom: 1px solid #FFBD00;
     padding-bottom: 25px;
     /* background-color: aqua; */
+}
+
+.titleValores {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3A241A;
+}
+
+.paragraphValores {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000
 }
